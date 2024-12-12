@@ -176,7 +176,9 @@ textarea:focus{
 	box-shadow:0 0 10px rgba(0,0,0,0.5);}
 
 table {
-    border-spacing: 0; 
+    border-spacing: 0;
+	 width: 90%;
+   	 margin: 0 auto;
 	border-color: gray;}
 
 .table1 th{
