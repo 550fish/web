@@ -176,10 +176,11 @@ textarea:focus{
 	box-shadow:0 0 10px rgba(0,0,0,0.5);}
 
 table {
-    border-spacing: 0;
-	 width: 90%;
-   	 margin: 0 auto;
-	border-color: gray;}
+    border-spacing: 0; 
+	border-color: gray;
+    width: 90%;
+    margin: 0 auto;
+}
 
 .table1 th{
 	font:800 18px Arial,sans-serif;
@@ -290,9 +291,28 @@ tr{
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    
     align-items: center;
     
 }
 td{
     font-size: 25px;
 }
+
+table{
+text-transform: capitalize;
+}
+.add {
+	width: 90% !important;
+	/* height: 100%;  */
+	margin: 0;
+}
+.addd{
+	font-size: 0;
+	width: 240px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+td ,th {text-align: center !important;
+margin-bottom: 20px;}
